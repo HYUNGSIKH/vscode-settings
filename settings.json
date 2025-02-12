@@ -1,0 +1,23 @@
+{
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    },
+    "extensions.autoCheckUpdates": false,
+    "extensions.autoUpdate": false,
+    "extensions.gallery.autoUpdate": false,
+    "extensions.gallery.unsupportedExtensionKind": ["workspace", "ui", "web"],
+    "editor.minimap.enabled": false,
+    
+    "editor.inlayHints.fontFamily": "D2Coding",
+    "editor.codeLensFontSize": 16,
+    "workbench.iconTheme": "material-icon-theme",
+    "files.autoSave": "afterDelay",
+    "editor.fontFamily": "D2Coding",
+    "editor.fontSize": 16,
+    "json.schemas": [
+
+    ],
+    "jupyter.interactiveWindow.creationMode": "perFile"
+}
+
