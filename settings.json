@@ -3,21 +3,45 @@
         "configurations": [],
         "compounds": []
     },
+    "editor.fontFamily": "D2Coding",
+    "editor.fontSize": 16,
+    "editor.inlayHints.fontFamily": "D2Coding",
+    "editor.codeLensFontSize": 16,
+    "editor.minimap.enabled": false,
+    "files.autoSave": "afterDelay",
+    "terminal.integrated.fontFamily": "monospace",
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "explorer.confirmPasteNative": false,
+    "extensions.ignoreRecommendations": true,
     "extensions.autoCheckUpdates": false,
     "extensions.autoUpdate": false,
     "extensions.gallery.autoUpdate": false,
-    "extensions.gallery.unsupportedExtensionKind": ["workspace", "ui", "web"],
-    "editor.minimap.enabled": false,
-    
-    "editor.inlayHints.fontFamily": "D2Coding",
-    "editor.codeLensFontSize": 16,
-    "workbench.iconTheme": "material-icon-theme",
-    "files.autoSave": "afterDelay",
-    "editor.fontFamily": "D2Coding",
-    "editor.fontSize": 16,
-    "json.schemas": [
-
+    "extensions.gallery.unsupportedExtensionKind": [
+        "workspace",
+        "ui",
+        "web"
     ],
-    "jupyter.interactiveWindow.creationMode": "perFile"
+    "workbench.iconTheme": "material-icon-theme",
+    "json.schemas": [],
+    "jupyter.interactiveWindow.creationMode": "perFile",
+    "notebook.lineNumbers": "on",
+    "files.associations": {
+        "*Dict": "OpenFOAM",
+        "*Properties": "OpenFOAM",
+        "fvSchemes": "OpenFOAM",
+        "fvSolution": "OpenFOAM",
+        "**/constant/g": "OpenFOAM",
+        "**/0/*": "OpenFOAM",
+        "**/0.orig/*": "OpenFOAM"
+    },
+    "material-icon-theme.files.associations": {
+        "*.dat": "Document",
+        "*.rsl": "Document",
+        "*.list": "Document",
+        "*.swn": "Document",
+        "*.tran": "Document",
+        "*.in": "Document",
+        "*.for": "Fortran"
+    },
+    "settingsSync.ignoredExtensions": []
 }
-
